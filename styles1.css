@@ -1,0 +1,461 @@
+.container{
+    clear:both;
+    overflow:auto;
+    padding: 30px;
+    width: 100%;
+  }
+  
+  nav{
+      
+      float:right;
+      
+    }
+  
+  .logo img{
+      float:left;
+    }
+  
+  ul li{
+    display: inline-block; 
+    padding:20px;
+    font-size:20px; 
+    font-family:Sora, Helvetica, Arial, sans-serif;
+    size: 15px;
+  }
+  
+  ul li:hover{
+    color:#00d285;
+    
+  }
+
+  .btn{
+    border-radius: 24px; 
+    border:none;
+    color:white;
+    background-color: #00D285;
+    font-family:Sora, Helvetica, Arial, sans-serif;
+    width: 3cm;
+    height: 8mm;
+    font-size: 12px;
+    line-height: 14px;
+}
+.btn:hover{
+  background-color:  #039A63;
+}
+.box1_e{
+    height: 470px;
+    width: 100%;
+    padding: 0 84px 0 84px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    
+}
+#boxA_1_e{
+    padding: 120px 152px 70px 152px;
+    z-index: 1;
+    display: block;
+    float: left;
+    width: 1000px;
+    height: 500px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 70px;
+    background-color:black;
+    background-image: url(scooterrental-section-bg1.png);
+}
+
+.Text1_e{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    height: 20.4444px;
+    width: 785.931px;
+    margin: 0 0 15px 0;
+    display: block;
+    margin-left: 2cm;
+
+    
+}
+.Text2_e{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    height: 100px;
+    width: 785.931px;
+    color:white;
+    margin-left: 2cm;
+    margin-top: 0;
+
+}
+.Text3_e{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    height: 52px;
+    width: 490px;
+    margin: 0 0 15px 0;
+    display: block;
+    color:white;
+    margin-left: 6cm;
+
+}
+#BigCol_e{
+    height: 4000.57px;
+    width: 1219.99px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1220px;
+    position:flex;
+    justify-content: center;
+    display: block;    
+    
+}
+.col_e{
+    font-family: sora,Helvetica,Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none solid rgb(98,98,98);
+
+}
+
+#col1_e{
+    height: 953.514px;
+    width: 400px;
+    padding: 0 85px 0 85px;
+    position: relative;
+    float: left;
+    display: block;
+    z-index: 1;
+   
+}
+.Text4_e{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none solid rgb(142,154,172);
+    color: #8E9AAC;
+    height: 77.3333px;
+    width: 430.431px;
+    margin: 0 0 15px 0;
+    display: block;
+
+}
+.Text5_e{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none solid rgb(142,154,172);
+    color: #8E9AAC;
+    height:51.555px;
+    width: 430.431px;
+    margin: 0 0 15px 0;
+    display: block;
+}
+.Tablebox_e{
+    background-color: white;
+    height: 300.444px;
+    width: 430.431px;
+    padding: 50px 0 50px 0;
+    display: block;
+    box-shadow: rgba(0,0,0,0.06)0px 10px 30px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+table{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 5px
+}
+.table_e{
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.t1{
+    font-family: Sora, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    height: 46.2778px;
+    width: 247.722px;
+    border-top: 0px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 0px solid white ;
+    padding: 10px 10px 10px 10px;
+    display: table-cell;
+    border-collapse: collapse;
+}
+.t2{
+    font-family: Sora, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    height: 46.2778px;
+    width: 182.708px;
+    border-top: 0px solid white;
+    border-bottom: 1px solid white;
+    border-left: 0px solid white ;
+    padding: 10px 10px 10px 10px;
+    display: table-cell;
+    border-collapse: collapse;
+    color: #00d285;
+}
+#col2_e{
+    height: 953.514px;
+    width:610px;
+    position: relative;
+    float: left;
+    display: block;
+    z-index: 1;
+    
+
+}
+.bike1{
+    height: 813.958px;
+    width: 593.389px;
+    max-width: 100.1%;
+    position: relative;
+    display: inline;
+    border-radius: 5px;
+}
+.btn1_e{
+    font-family: Sora,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: middle;
+    background-color:  #00D285;
+    color:  #FFFFFF;
+    height: 41.5556px;
+    width: 189.639px;
+    border: 0px solid  #FFFFFF;
+    padding: 15px 40px 15px 40px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.1s ease-in-out 0s, background-color 0.1s ease-in-out 0s, border-color 0.1s ease-in-out 0s;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius:24px;
+    margin-left: 5cm;
+}
+.btn1_e:hover(){
+    background-color: #039A63;
+}
+
+.Withfooter_e{
+    background-color: #00d285;
+    height: 400px;
+    width: 1000px;
+    margin: -320px 0 0 0 ;
+    padding: 100px 308px 100px 308px;
+    position: relative;
+    float: left;
+    display:block;
+    z-index: 28;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(scooterrental-section-bg2.png);
+
+}
+.Text6_e{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: -1;
+    line-height: 65px;
+    text-decoration: none solid rgb(168, 38, 38);
+    height:259.556px;
+    width: 459.417px;
+    color: white;
+    display: block;
+    float: left;
+    top: 100px;
+}
+.Text7_e{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none solid rgb(168, 38, 38);
+    height:40px;
+    width: 510.458px;
+    color: white;
+    display: block;
+    margin-top: 2cm;
+    margin-left: 5cm;
+    float: left;
+}
+.btn2{
+    font-family:Sora;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-decoration: none solid rgb(255, 255, 255);
+    vertical-align: middle;
+    background-color: #2F2E2E;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    position: relative;
+    display: inline-block ;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 24px;
+    border: none;
+    
+}
+.btn2:hover{
+    background-color: #7d7d7d
+    ;
+}
+.Text8_e{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+    height: 77.3333px;
+    width: 510.458px;
+    display: block;
+    text-align: center;
+}
+.Text6_e {
+    position: relative;
+    top: -75.81px;
+   }
+   
+   .btn2 {
+    left: -325.428px;
+    position: relative;
+    top: 241.86px;
+   }
+   
+   .Text7_e {
+    left: 345.03px;
+    position: relative;
+    top: -365.95px;
+   }
+.biggest{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#parent_j{
+    background-color: white;
+    height: 880px;
+    width: 100%;
+}
+.box4_j{
+    display: flex;
+    justify-content: center;
+    float: left;
+    z-index: 10;
+    position:relative;
+    left: 0;
+    bottom: 0;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    
+}
+
+.insidebox4_j{
+    margin-top: auto;
+    height: 500px;
+    width:1200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+}
+.one{
+    height: 314px;
+    width: 382.25px;
+    margin: 0 12px 0 12px;
+    float: left;
+    display: block;
+    
+
+}
+.two
+{
+    height: 431.867px;
+    width: 382.25px;
+    margin: 0 12px 0 12px;
+    float: left;
+    display: block;
+
+}
+.three{
+    height: 314px;
+width: 382.25px;
+margin: 0 12px 0 12px;
+float: left;
+display: block;
+
+}
+.Text8_e{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+text-decoration: none solid rgb(125, 125, 125);
+text-align: center;
+color:  #7D7D7D;
+height: 18px;
+width: 382.25px;
+margin: 0 0 15px 0;
+display: block;
+
+}
+.Text9_e{
+       font-family : Sora, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: underline solid rgb(214, 214, 214);
+    text-align: center;
+    color:  #D6D6D6;
+    height: auto;
+    width: auto;
+    margin: 0 0 15px 0;
+
+    display: block;
+    cursor: pointer;
+}
+.Text10_e{
+    
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    color:  #FFFFFF;
+    height: 80px;
+    width: 382.25px;
+    margin: 0 0 15px 0;
+    display: block;
+}

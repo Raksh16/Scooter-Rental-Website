@@ -1,0 +1,646 @@
+.container{
+    clear:both;
+    overflow:auto;
+    padding: 30px;
+    width: 100%;
+  }
+  
+  nav{
+      
+      float:right;
+      
+    }
+  
+  .logo img{
+      float:left;
+    }
+  
+  ul li{
+    display: inline-block; 
+    padding:20px;
+    font-size:20px; 
+    font-family:Sora, Helvetica, Arial, sans-serif;
+    size: 15px;
+  }
+  
+  ul li:hover{
+    color:#00d285;
+    
+  }
+
+  .btn{
+    border-radius: 24px; 
+    border:none;
+    color:white;
+    background-color: #00D285;
+    font-family:Sora, Helvetica, Arial, sans-serif;
+    width: 3cm;
+    height: 8mm;
+    font-size: 12px;
+    line-height: 14px;
+}
+.btn:hover{
+  background-color:  #039A63;
+}
+
+.box1_e{
+  height: 700px;
+  width: 100%;
+  padding: 0 84px 0 84px;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  
+}
+#boxA_1_e{
+  padding: 120px 152px 70px 152px;
+  z-index: 1;
+  display: block;
+  float: left;
+  width: 1000px;
+  height: 500px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 70px;
+  background-color:black;
+  background-image: url(scooterrental-section-bg1.png);
+}
+
+.Text1_e{
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  height: 20.4444px;
+  width: 785.931px;
+  margin: 0 0 15px 0;
+  display: block;
+  margin-left: 2cm;
+
+  
+}
+.Text2_e{
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  height: 100px;
+  width: 785.931px;
+  color:white;
+  margin-left: 2cm;
+  margin-top: 0;
+
+}
+.Text3_e{
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  height: 52px;
+  width: 490px;
+  margin: 0 0 15px 0;
+  display: block;
+  color:white;
+  margin-left: 6cm;
+
+}
+.row_e{
+  height: 737.767px;
+  width: 100%;
+  padding: 120px 0 80px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Text4_e{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 65px ;   
+    height: 194.667px;
+    width: 538.014px;
+    margin-left: 3cm;
+    display: block;
+}
+.Text5_e{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    height: 51.5556px;
+    width: 538.014px;
+    margin-left: 3cm;
+    display: block;
+}
+.xyz_e{
+    height: 737.806px;
+    width: 610px;
+    padding: 0 61px 0 0;
+    position: relative;
+    float: left;
+    display: block;
+    z-index: 1;
+}
+.xyz1_e{
+  height: 354.222px;
+  width: 538.014px;
+  display: block;
+  margin-top: 5cm;
+
+}
+.xyz2_e{
+  height: 697.806px;
+  width: 478.708px;
+  max-width: 100.1%;
+  position:relative;
+  display: inline; 
+}
+.parent_e{
+  height:1100.222px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.abc_e{
+  height: 842.2px;
+  width: 500.6px;
+  padding: 0 106px 0 106px;
+  position: relative;
+  float: left;
+  display: block;
+  z-index: 1;
+
+}
+.abc1_e{
+  height: 199.8px;
+  width: 500.825px;
+  padding: 40px 0 25px 80px;
+  display: block;
+}
+.Text6_e{
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 65px;
+  color: #00d285;
+  height: 64px;
+  width: 364.825px;
+  margin: 0 0 15px 0;
+  display: block;
+
+}
+
+.Text7_e{
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  height: 40px;
+  width: 364.825px;
+  margin: 0 0 15px 0;
+  display: block;
+
+}
+.abc2_e{
+  height: 700.933px;
+  width: 500px;
+  padding: 120px 142px 70px 142px;
+  position: relative;
+  float: left;
+  display: block;
+  z-index: 1;
+  border-top-left-radius: 70px;
+  background-color: #fefefe;
+  border-bottom-left-radius: 30px;
+  
+}
+.Text8_e{
+  font-family: Sora, Arial,;
+  font-size: 14px;
+  line-height: 25px;
+  color: #626262;
+  height: 88.6px;
+  width: 471.55px;
+  
+}
+.whitebox{
+  font-family: sora,Helvetica,Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none solid rgb(98,98,98);
+  height: 520.969px;
+  width: 100%;
+  padding-left: 23px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+
+}
+.greenbox{
+  font-family: sora,Helvetica,Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none solid rgb(98,98,98);
+  background-color: #00d285;
+
+  float: left;
+  display: block;
+  max-width: 100%;
+  z-index: 1;
+  border-radius: 30px;
+  height: 522.333px;
+  width: 1400px;
+  margin-left: 0;
+
+}
+
+.Text6{
+  font-family: Poppins,Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 65px;
+  text-decoration: none solid rgb(255,255,255);
+  text-align: center;
+  height: 129.778px;
+  width: 1367.31px;
+  margin: 0 0 15px 0;
+  display: block;
+  color: white;
+  margin-top: 2cm;
+}
+
+.Text7{
+  font-family: Poppins,Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  height: 51.5556px;
+  width: 1367.31px;
+  margin: 0 0 15px 0;
+  display: block;
+
+}
+
+.col22{
+  margin-top: 0.25cm;
+  font-family: sora, arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none solid rgb(98,98,98);
+  width: 406.653px;
+  height: 700.667px;
+  padding: 0 24px 0 24px;
+  position: relative;
+  float: left;
+  display: block;
+  z-index: 28;
+
+}
+
+
+.col22_1{
+  margin-left:10cm;
+  font-family: Sora, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: none solid rgb(98, 98, 98);
+  text-align: center;
+  background-color:transparent;
+  height:200px;
+  width: 350.708px;
+  padding: 40px 35px 40px 35px;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px 0px;
+ 
+  }
+
+.Text8{
+  
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: center;
+  height: 29.3333px;
+  width: 280.569px;
+  margin: 0 0 15px 0;
+  display: block;
+}
+.Text9{
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+text-decoration: none solid rgb(142, 154, 172);
+text-align: center;
+height: 17.7778px;
+width: 280.569px;
+margin: 0 0 15px 0;
+display:block;
+}
+
+.Text10{
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+font-size: 55px;
+font-weight: 600;
+letter-spacing: -1px;
+line-height: 65px;
+text-decoration: none solid rgb(0, 210, 133);
+text-align: center;
+color:#00D285;
+height: 64.8889px;
+width: 280.569px;
+margin: 0 0 15px 0;
+display:block;
+}
+
+.Text11{
+  font-family: Sora, Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 25px;
+text-decoration: none solid rgb(142, 154, 172);
+text-align: center;
+height: 74.6667px;
+width: 280.569px;
+margin: 0 0 15px 0;
+display: block;
+}
+.Text12{
+  font-family: Sora, Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 25px;
+text-decoration: none solid rgb(39, 42, 46);
+text-align: left;
+height: 114.667px;
+width: 280.569px;
+margin: 0 0 15px 0;
+list-style-position: outside;
+display:block;
+}
+.greentext{
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+text-decoration: none solid rgb(0, 210, 133);
+text-align: center;
+height: 17.7778px;
+width: 280.569px;
+margin: 0 0 15px 0;
+display: block;
+}
+
+.img_wrap{
+  font-family: sora,Arial,Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none solid rgb(98,98,98);
+  text-align: center;
+  height: 96px;
+  width:280.259px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.imgx{
+  font-family: sora,Arial,Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none solid rgb(98,98,98);
+  text-align: center;
+  height: 96px;
+  width:96px;
+  max-width: 100.1%;
+  position: relative;
+  display: inline;
+  transform: matrix(1,0,0,1,0,0);
+}
+
+.btn4{
+  font-family: Sora;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  height: 41.5556px;
+  width: 149.917px;
+  border: 0px solid  #FFFFFF;
+  margin: 0 10px 15px 0;
+  padding: 15px 40px 15px 40px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  display:inline-block;
+  background-color: #00d285;
+  border: none;
+  border-radius: 24px;
+  color: #FFFFFF;
+  margin-left: 1cm;
+}
+.btn4:hover{
+  background-color: #039A63;
+}
+.xxx{
+  margin-top: 4cm;
+  margin-left: 2cm;
+  width: 350.703px;
+  height: 736px;
+
+
+}
+.col22 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.col22_1{
+
+width: 350.703px;
+height: 600px;
+padding-bottom: -1;
+}
+.col22 .col22_1 {
+  position: relative;
+
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  overflow: hidden;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid rgba(255,255,255,0.5);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* padding-bottom:-50; */
+  opacity: 0.7;
+
+}
+
+.col22 .col22_1 .xxx {
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.col22 .col22_1:hover .xxx {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.col22 .col22_1:hover .xxx {
+position: absolute;
+top: -90px;
+right: 30px;
+font-size: 8em;
+color: rgba(255,255,255,0.05);
+pointer-events: none;
+
+}
+
+.col22 .col22_1:hover .xxx {
+  font-size: 1.8em;
+  color: #fff;
+  z-index: 1;
+}
+
+.col22 .col22_1:hover .xxx {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+}
+
+.col22 .col22_1:hover .xxx {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  /* margin-top: 15px; */
+  background: #fff;
+  color: #000;
+  width: 406.653px;
+  height: 700px;
+  text-decoration: none;
+  font-weight: 500;
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.5); */
+}
+
+.col22_1:hover{
+opacity: 1;
+}
+#parent_j{
+  background-color:white;
+  height: 880px;
+  width: 100%;
+}
+.box4_j{
+  display: flex;
+  justify-content: center;
+  float: left;
+  z-index: 10;
+  position:relative;
+  left: 0;
+  bottom: 0;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  background-color:black;
+  background-image:url(scooterrental-section-bg1.png);
+  
+}
+
+.insidebox4_j{
+  margin-top: auto;
+  height: 500px;
+  width:1200px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+}
+.one_e{
+  height: 314px;
+  width: 382.25px;
+  margin: 0 12px 0 12px;
+  float: left;
+  display: block;
+  
+
+}
+.two_e
+{
+  height: 431.867px;
+  width: 382.25px;
+  margin: 0 12px 0 12px;
+  float: left;
+  display: block;
+
+}
+.three_e{
+  height: 314px;
+width: 382.25px;
+margin: 0 12px 0 12px;
+float: left;
+display: block;
+
+}
+.Text12_ee{
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+text-decoration: none solid rgb(125, 125, 125);
+text-align: center;
+color:  #7D7D7D;
+height: 18px;
+width: 382.25px;
+margin: 0 0 15px 0;
+display: block;
+
+}
+.Text13_ee{
+     font-family : Sora, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  text-decoration: underline solid rgb(214, 214, 214);
+  text-align: center;
+  color:  #D6D6D6;
+  height: auto;
+  width: auto;
+  margin: 0 0 15px 0;
+
+  display: block;
+  cursor: pointer;
+}
+.Text14_ee{
+  
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  color:  #FFFFFF;
+  height: 80px;
+  width: 382.25px;
+  margin: 0 0 15px 0;
+  display: block;
+}

@@ -1,0 +1,138 @@
+# def sumArray(arr,n):
+#     if n==0:
+#         return 0
+#     elif n==1:
+#         return arr[n-1]
+#     else:
+#         p=sumArray(arr,n-1) 
+#         return arr[n-1] + p
+
+	
+# # Main
+# from sys import setrecursionlimit
+# setrecursionlimit(11000)
+# n=int(input())
+# arr=list(int(i) for i in input().strip().split(' '))
+# # print(sumArray(arr,n))
+# def firstIndex(n,arr,x,si):
+#     if n==0:
+#         return -1
+#     elif x==arr[si]:
+#         return 0
+#     else:
+#         firstIndex(n,arr,x,si+1)
+
+# # Main
+# from sys import setrecursionlimit
+# setrecursionlimit(11000)
+# n=int(input())
+# arr=list(int(i) for i in input().strip().split(' '))
+# x=int(input())
+# si=0
+# print(firstIndex(n,arr,x,si))
+
+
+# def firstIndex(arr, x):
+#     size = len(arr)
+#     if size<=0:
+#         return -1
+#     if x == arr[0]:
+#         return 0
+#     smallAns = firstIndex(arr[1:],x)
+#     if smallAns ==-1:
+#         return -1
+#     else:
+#         return smallAns+1
+    
+
+
+# # Main
+# from sys import setrecursionlimit
+# setrecursionlimit(11000)
+# n=int(input())
+# arr=list(int(i) for i in input().strip().split(' '))
+# x=int(input())
+# print(firstIndex(arr, x))
+
+# def lastIndex(arr,x):
+#     size = len(arr)
+#     if size==0:
+#         return -1
+#     sl=arr[1:]
+#     so=lastIndex(sl,x)
+#     if so != -1:
+#         return so+1
+#     else:
+#         if arr[0]==x:
+#             return 0
+#         else :
+#             return -1
+
+
+
+# # Main
+# from sys import setrecursionlimit
+# setrecursionlimit(11000)
+# n=int(input())
+# arr=list(int(i) for i in input().strip().split(' '))
+# x=int(input())
+# print(lastIndex(arr,x))
+
+
+# Problem: Remove x from string
+# def removeX(string): 
+#     if string[0]=='p' and string[1]=='i':
+#         return -1
+#     else:
+#         return -2
+
+
+# # Main
+# string = input("Enter")
+# print(removeX(string))
+
+
+# def removeConsecutiveDuplicates(string):
+
+#     if len(string)==0 or len(string)==1 :
+#         return string
+    
+#     if string[0]==string[1]:
+#         so=removeConsecutiveDuplicates(string[2:])
+#         return string[1]+so
+        
+#     else:
+#         so=removeConsecutiveDuplicates(string[1:])
+#         return string[0]+so
+            
+    
+# # Main
+# string = input("enter").strip()
+# print(removeConsecutiveDuplicates(string))
+
+
+def mergeSort(arr, start, end):
+    # Please add your code here
+    mid=(start+end)//2
+    s1=mergeSort(arr,start,mid-1)
+    s2=mergeSort(arr,mid,end)
+    merge(s1,s2,arr)
+    
+def merge(s1,s2,arr):
+    s3=[]
+    if s1[0]<s2[0]:
+        arr=s1[0]
+        merge(s1[1:],s2,arr)
+        return arr
+    else:
+        arr=s2[0]
+        merge(s1,s2[1:],arr)
+        return arr
+    
+    
+
+# Main
+n=int(input("enter"))
+arr=list(int(i) for i in input("Enter").strip().split(' '))
+mergeSort(arr, 0, n)
+print(*arr)
